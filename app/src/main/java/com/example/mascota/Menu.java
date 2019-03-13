@@ -31,4 +31,11 @@ public class Menu extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //Go to MapsActivity
+    public void goToMapsActivity(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
 }
+
